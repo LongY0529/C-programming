@@ -1,5 +1,5 @@
 # C programming language fourth edition by Haoqiang Tan
-![C programming language Haoqiang Tan](https://discourse-production.oss-cn-shanghai.aliyuncs.com/original/3X/3/6/36c88bd6a99f1bfd60d291a5f05ecad7241237ea.jpg)
+![C programming language Haoqiang Tan](https://images-cn.ssl-images-amazon.com/images/I/41lNx-FNsLL._SX353_BO1,204,203,200_.jpg)
 
 This is the exercises after each chapter of the book
 ## Content
