@@ -1,5 +1,5 @@
 # C programming language fourth edition by Haoqiang Tan
-This is the exercises after each Chapter
+This is the exercises after each chapter of the book
 ## Content
 5. [Loops](#Loops)
 6. [Array](#Array)
