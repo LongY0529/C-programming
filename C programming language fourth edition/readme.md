@@ -6,7 +6,7 @@ This is the exercises after each chapter of the book
 5. [Loops](#Loops)
 6. [Array](#Array)
 7. [Function](#Function)
-8. [Pointer](#Pointer)
+8. [Pointer](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/8.%20Pointer)
 9. [Struct](#Struct)
 10. [Ioput](#Ioput)
 11. [Error](#Error)
