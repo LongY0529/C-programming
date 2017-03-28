@@ -1,6 +1,6 @@
 # C programming language fourth edition by Haoqiang Tan
 This is the exercises after each chapter of the book
-![Image of the book](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj65uv__fnSAhUG_4MKHcQYBQUQjRwIBw&url=https%3A%2F%2Fcommunity.eet-china.com%2Ft%2Fc%2F11920&psig=AFQjCNF03UH3TNgQo2Zouv9Vtm7UrtBmpw&ust=1490817447138213)
+![C programming language Haoqiang Tan](https://discourse-production.oss-cn-shanghai.aliyuncs.com/original/3X/3/6/36c88bd6a99f1bfd60d291a5f05ecad7241237ea.jpg)
 ## Content
 5. [Loops](#Loops)
 6. [Array](#Array)
