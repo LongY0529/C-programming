@@ -2,7 +2,8 @@
 ## Table of Content
   * [Exercise 1](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/Exercise%201.c)  
     * Input 3 integers, print out them in ascending order
-  * [2. Input 3 strings, print out them in ascending order](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/Exercise%202.c) 
+  * [Exercise 2](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/Exercise%202.c) 
+    * Input 3 strings, print out them in ascending order
   * [3]()
   * [4]()
   * [5]()
