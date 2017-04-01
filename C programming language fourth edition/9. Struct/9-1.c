@@ -16,7 +16,7 @@ int main()
   		printf("input year,month,day:");
   		scanf("%d,%d,%d",&date. year,&date.month,&date.day);
   		switch(date.month)	//list number of days in each month
-        { 
+       		{ 
   			case 1: days=date.day;    break;	//if the month is Jan
     		case 2: days=date.day+31; break;	//if the month is Fen
     		case 3: days=date.day+59; break;	//if the month is Mar
@@ -29,7 +29,7 @@ int main()
     		case 10: days=date.day+273; break;	//if the month is Oct
     		case 11: days=date.day+304; break;	//if the month is Nov
     		case 12: days=date.day+334; break;	//if the month is Dec
-        }	//end switch()
+                }	//end switch()
   			if ((date.year %4== 0 && date.year % 100 != 0	//judge wether it is leap year
       			||date.year % 400 == 0) && date.month >=3)  
 	       		days += 1;	//if it is leap year and the month is after Feb, days + 1
