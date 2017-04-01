@@ -12,9 +12,10 @@ struct  stu	//define struct
  	struct stu *next;
 };
 struct stu lista,listb;	//create two lists  
-int n,sum=0;
+
 int main()
 {
+	int n,sum=0;
 	struct stu *merge(void);	//declare function merge 
  	struct stu *insert(struct stu  *,struct stu *);	//declare function insert
  	void print(struct stu *);
@@ -32,7 +33,7 @@ int main()
 }	//end main
 
 struct stu *merge(void)	//define the linkedlist funtion 
- {
+{
  	struct stu *p1,*p2,*head;
   	n = 0;
   	p1 = p2 = (struct stu *)malloc(LEN);	//transfer pointer(malloc(len)) into the struct same as struct stu
@@ -60,12 +61,12 @@ struct stu *insert(struct stu *ah,struct stu *bh)	//declare funtion of insert
   	pa2 = pa1 = ah;
   	pb2 = pb1 = bh;
  	while((pb1 -> num > pa1->num) && (pa1 -> next !=NULL))	//if pb1 small than pa1 and the next object in pa1 is not a null 
-    {	
+        {	
 	 	   pa2 = pa1;	//change pa1 and pa2 
-           pa1 = pa1->next;	//sort next object of pa1
-    }	//end while
+                   pa1 = pa1->next;	//sort next object of pa1
+        }	//end while
     if (pb1 -> num <= pa1->num)	
-     {
+        {
 	 	if (ah == pa1)	//if the value of pa1 equal to the head of linkedlist a
 	        ah = pb1;	//assigned the value of pb1 to the head of linkedlist a
         else 	//if not 
@@ -77,19 +78,19 @@ struct stu *insert(struct stu *ah,struct stu *bh)	//declare funtion of insert
 	 }	//end if 
 	while ((pa1->next != NULL) || (pa1 == NULL && pb1 != NULL));
     		if ((pb1 != NULL) && (pb1 -> num > pa1 -> num) && (pa1 -> next == NULL))
-      			 pa1 -> next = pb1;
+      		pa1 -> next = pb1;
     return(ah);
  }	//end stu*insert
 
 void print(struct stu *head)  //declare funtion of output 
-  {
+{
   	struct stu *p;
    	printf("There are %d records:  \n",sum);
    	p = head;
    	if (p != NULL)
 		while (p != NULL)
        {
-	   		   printf("%ld %d\n",p->num,p->score);
+	   	    printf("%ld %d\n",p->num,p->score);
 	            p = p->next;
        }	//end if
-  }	//end print()
+}	//end print()
