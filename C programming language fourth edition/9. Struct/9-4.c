@@ -17,4 +17,4 @@ void input(struct student stu[])    //declare function of input scores
         }   //end for
         printf("\n");
     }   //end for
-}   end input()
+}   //end input()
