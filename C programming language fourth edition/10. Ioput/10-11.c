@@ -16,10 +16,10 @@ int main()
         fp=fopen("result","r"); 
         while(fscanf(fp,"%s",str)!=EOF) //for all the char has been got
         {
-            for (i=0;str[i]!='\0';i++)  //if the char is not the end, continue
+            	for (i=0;str[i]!='\0';i++)  //if the char is not the end, continue
 	            if ((str[i]>='a') && (str[i]<='z')) //if the char is lower letter
 	                str[i]= str[i] - 32;    //translate the letter into upper one 
-            printf("%s\n",str); //output the new string 
+            	printf("%s\n",str); //output the new string 
         }
         fclose(fp); //close the file
         return 0;
