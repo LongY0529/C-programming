@@ -22,10 +22,10 @@ int main()
   			printf("student's name: ");	//input name.
   			scanf("%s",stu[i].name);
   			for (j = 0; j < 3; j++)	//each student includes three scores 
-       		{
+       			{
 			 	printf("score %d:",j + 1);
-             	scanf("%d",&stu[i].score[j]);
-    		}	//end for
+             			scanf("%d",&stu[i].score[j]);
+    			}	//end for
   			printf("\n");	//change line 
     		}	//end for
 		score(stu);	//list all the scores 
@@ -39,9 +39,9 @@ void score(struct student stu[6])	//define funtion of score
   		for (i = 0; i < N; i++)	//output students' No. and name 
    		{
    			 printf("%5s%10s",stu[i].num,stu[i].name);
-    		 for (j = 0; j < 3; j++)	//output students' score
-      		 printf("%9d",stu[i].score[j]);
-    		 printf("\n");
+    		for (j = 0; j < 3; j++)	//output students' score
+      		printf("%9d",stu[i].score[j]);
+    		printf("\n");
    		}	//end for
 }	//end score()
 
