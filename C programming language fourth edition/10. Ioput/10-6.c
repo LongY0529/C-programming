@@ -9,11 +9,11 @@ struct student	//define struct
  	char name[8];
  	int score[3];
  	float ave;
- } 
- st[N],temp;
+} 
+st[N],temp;
 
 int main()
- {
+{
  	FILE *fp;	//define a file pointer fp
  	int i,j,n;
   	if ((fp = fopen("stud","r")) == NULL)	//open file stdu
@@ -31,9 +31,9 @@ int main()
     }//end for 
   	printf("\n");
   	fclose(fp);
- 	 n = i;
+ 	n = i;
   	for (i = 0; i < n; i++)
-     	 for (j = i + 1; j < n; j++) //sort score in ascending order
+     	for (j = i + 1; j < n; j++) //sort score in ascending order
 			  if (st[i].ave < st[j].ave)
 	  		  {
 				temp = st[i];
@@ -43,14 +43,14 @@ int main()
   	printf("New order:");	//output the new order of students
   	fp = fopen("stu_sort","w");	//open the file "stu_sort"
   	for (i = 0; i < n; i++)	//output the new order 
-    {
-	 	 fwrite(&st[i],sizeof(struct student), 1, fp);	//write the data into new file 
-     	 printf("\n%8s%8s",st[i].num,st[i].name);
+        {
+	 	fwrite(&st[i],sizeof(struct student), 1, fp);	//write the data into new file 
+     	 	printf("\n%8s%8s",st[i].num,st[i].name);
       	 for (j = 0; j < 3; j++)
-	     	  printf ("%8d",st[i].score[j]);
+	     	 printf ("%8d",st[i].score[j]);
          printf("%10.2f",st[i].ave);
-     }	//end for 
+         }	//end for 
   	printf("\n");
   	fclose(fp);
   	return 0;
- }	//end main()
+}	//end main()
