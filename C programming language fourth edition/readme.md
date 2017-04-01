@@ -3,10 +3,10 @@
 
 This is the exercises after each chapter of the book
 ## Content
-5. [Loops](#Loops)
-6. [Array](#Array)
-7. [Function](#Function)
+5. [Loops](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/5.%20Loops)
+6. [Array](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/6.%20Array)
+7. [Function](https://github.com/LongY0529/C-programming/commit/8dc8f14508c994c427acffcbb5da4551abfae66c)
 8. [Pointer](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/8.%20Pointer)
-9. [Struct](#Struct)
-10. [Ioput](#Ioput)
+9. [Struct](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/9.%20Struct)
+10. [Ioput](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/10.%20Ioput)
 11. [Error](#Error)
