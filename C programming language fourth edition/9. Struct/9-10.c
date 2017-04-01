@@ -32,14 +32,14 @@ int main()
  	return 0;
 }	//end main
 
-struct stu *merge(void)	//define the linkedlist funtion 
+struct stu *merge(void)	//declare the linkedlist funtion 
 {
  	struct stu *p1,*p2,*head;
   	n = 0;
   	p1 = p2 = (struct stu *)malloc(LEN);	//transfer pointer(malloc(len)) into the struct same as struct stu
   	printf("input scores of stu:\n");
   	scanf("%ld,%d",&p1->num,&p1->score);	//input the scores of students 
-  	head=NULL;	//define head is a null 
+  	head=NULL;	//declare head is a null 
   	while(p1->num != 0)	//if scores does not equal to 0
     	{
 		n = n + 1;	//continue input scores 
