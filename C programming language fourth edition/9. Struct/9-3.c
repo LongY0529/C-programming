@@ -8,7 +8,8 @@ struct student	//define struct
   char num[10];
   char name[20];
   int score[3];
-}stu[N];
+}
+stu[N];
 
 int main()
 {
