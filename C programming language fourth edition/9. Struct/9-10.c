@@ -41,17 +41,17 @@ struct stu *merge(void)	//define the linkedlist funtion
   	scanf("%ld,%d",&p1->num,&p1->score);	//input the scores of students 
   	head=NULL;	//define head is a null 
   	while(p1->num != 0)	//if scores does not equal to 0
-    {
-		  n = n + 1;	//continue input scores 
-          if (n == 1)	//define the head of pointer p1 
-              head = p1;
-          else	//if scores equal to 0(end)
-       	      p2 -> next = p1;
-              p2 = p1;
-              p1 = (struct stu *)malloc(LEN);	//transfer pointer(malloc(len)) into the struct same as struct stu
-     scanf("%ld,%d",&p1->num,&p1->score);
-    }	//end while
-    p2->next=NULL;
+    	{
+		n = n + 1;	//continue input scores 
+          	if (n == 1)	//define the head of pointer p1 
+              		head = p1;
+          	else	//if scores equal to 0(end)
+       	     		p2 -> next = p1;
+              		p2 = p1;
+             		p1 = (struct stu *)malloc(LEN);	//transfer pointer(malloc(len)) into the struct same as struct stu
+     		scanf("%ld,%d",&p1->num,&p1->score);
+    	}	//end while
+    	p2->next=NULL;
   	return(head);
 }	//end stu*merge()
      
@@ -65,11 +65,11 @@ struct stu *insert(struct stu *ah,struct stu *bh)	//declare funtion of insert
 	 	   pa2 = pa1;	//change pa1 and pa2 
                    pa1 = pa1->next;	//sort next object of pa1
         }	//end while
-    if (pb1 -> num <= pa1->num)	
+    	if (pb1 -> num <= pa1->num)	
         {
 	 	if (ah == pa1)	//if the value of pa1 equal to the head of linkedlist a
-	        ah = pb1;	//assigned the value of pb1 to the head of linkedlist a
-        else 	//if not 
+	        	ah = pb1;	//assigned the value of pb1 to the head of linkedlist a
+        	else 	//if not 
 			pa2 -> next = pb1;	//assigned the value of pb1 to the next node of pa2
 	  		pb1 = pb1-> next;	//assigned the value of the next of pb1 to pb1
 	  		pb2->next = pa1;	//assigned the value of pa1 to the next node of pb2 
@@ -79,18 +79,18 @@ struct stu *insert(struct stu *ah,struct stu *bh)	//declare funtion of insert
 	while ((pa1->next != NULL) || (pa1 == NULL && pb1 != NULL));
     		if ((pb1 != NULL) && (pb1 -> num > pa1 -> num) && (pa1 -> next == NULL))
       		pa1 -> next = pb1;
-    return(ah);
+    	return(ah);
  }	//end stu*insert
 
 void print(struct stu *head)  //declare funtion of output 
 {
   	struct stu *p;
-   	printf("There are %d records:  \n",sum);
+   	printf("%d records: \n",sum);
    	p = head;
    	if (p != NULL)
 		while (p != NULL)
-       {
-	   	    printf("%ld %d\n",p->num,p->score);
-	            p = p->next;
-       }	//end if
+        	{
+	   	    	printf("%ld %d\n",p->num,p->score);
+	            	p = p->next;
+        	}	//end if
 }	//end print()
