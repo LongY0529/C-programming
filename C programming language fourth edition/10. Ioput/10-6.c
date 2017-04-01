@@ -17,23 +17,23 @@ int main()
  	FILE *fp;	//define a file pointer fp
  	int i,j,n;
   	if ((fp = fopen("stud","r")) == NULL)	//open file stdu
-    {
-		 printf("error!\n");	//if file stdu can not be opened, output error!
-     	 exit(0);
-    }//end if 
+    	{
+		printf("error!\n");	//if file stdu can not be opened, output error!
+     	 	exit(0);
+    	}//end if 
   	printf("File 'stud': ");	//if file stdu can be opened 
   	for (i = 0;fread(&st[i],sizeof(struct student),1,fp) != 0; i++)	//input the data
-    {
-		 printf("\n%8s%8s",st[i].num,st[i].name);
-     	 for (j = 0; j < 3; j++)
-	  		  printf("%8d",st[i].score[j]);
-    printf("%10.2f",st[i].ave);
-    }//end for 
+    	{
+		printf("\n%8s%8s",st[i].num,st[i].name);
+     	 	for (j = 0; j < 3; j++)
+	  	printf("%8d",st[i].score[j]);
+                printf("%10.2f",st[i].ave);
+    	}//end for 
   	printf("\n");
   	fclose(fp);
  	n = i;
   	for (i = 0; i < n; i++)
-     	for (j = i + 1; j < n; j++) //sort score in ascending order
+     		for (j = i + 1; j < n; j++) //sort score in ascending order
 			  if (st[i].ave < st[j].ave)
 	  		  {
 				temp = st[i];
@@ -46,11 +46,11 @@ int main()
         {
 	 	fwrite(&st[i],sizeof(struct student), 1, fp);	//write the data into new file 
      	 	printf("\n%8s%8s",st[i].num,st[i].name);
-      	 for (j = 0; j < 3; j++)
-	     	 printf ("%8d",st[i].score[j]);
-         printf("%10.2f",st[i].ave);
-         }	//end for 
+      	 	for (j = 0; j < 3; j++)
+	     	 	printf ("%8d",st[i].score[j]);
+        printf("%10.2f",st[i].ave);
+        }	//end for 
   	printf("\n");
-  	fclose(fp);
+  	fclose(fp);	//close file
   	return 0;
 }	//end main()
