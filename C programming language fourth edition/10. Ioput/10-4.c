@@ -14,7 +14,7 @@ int main ()
         	exit(0);
     	}	//end if 
  	printf("file A :\n");	
- 	for (i = 0; (ch = fgetc(fp)) != EOF; i++)	//get char one by one untill all the char has been got
+ 	for (i = 0; (ch = fgetc(fp)) != EOF; i++)	//get char one by one until all the char has been got
    	{
    		 c[i] = ch;	//restore char in c 
   		 putchar(c[i]);	//output the char 
@@ -26,7 +26,7 @@ int main ()
    		 exit(0);
     	}	//end if 
  	printf("B:\n");
- 	for (i = 0; (ch = fgetc(fp)) != EOF; i++)  //get char one by one untill all the char has been got
+ 	for (i = 0; (ch = fgetc(fp)) != EOF; i++)  //get char one by one until all the char has been got
     	{
 		 c[i] = ch; //restore char in c 
     		 putchar(c[i]);	//output the char 
