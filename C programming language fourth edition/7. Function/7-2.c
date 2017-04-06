@@ -35,15 +35,14 @@ float greaterthanzero(float a,float b)  //if flag > 0
 {
         x1 = (-b + sqrt(flag)) / (2*a); //define x1 and x2 
         x2 = (-b - sqrt(flag)) / (2*a);
-}
-
+}       //end greaterthanzero()
 float equaltozero(float a,float b)      //if flag = 0
 {
         x1 = x2 = (-b) / (2*a); //define x1 and x2 
-}
+}       //end equaltozero()
 
 float smallerthanzero(float a,float b)  //if flag < 0 
 {
         p = -b/(2*a);   //define x1 and x2 
         q = sqrt(-flag) / (2*a);
-}
+}       //end smallthanzero()
