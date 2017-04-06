@@ -22,8 +22,8 @@ void swap(int *pointer)
     for (i = 0; i < 3; i++) //swap the matrix
          for (j = i; j < 3; j++)    
          {
-             t = *(pointer+3*i + j);
-            *(pointer+3*i+j) = *(pointer+3*j+i);
-            *(pointer+3*j+i) = t;
+             t = *(pointer+3*i + j);    //store the value the pointer points to in t
+            *(pointer+3*i+j) = *(pointer+3*j+i);    //swap the value between two pointers
+            *(pointer+3*j+i) = t;   //reutrn the value in t to pointer 
          }  //end for
 }   //end swap()
