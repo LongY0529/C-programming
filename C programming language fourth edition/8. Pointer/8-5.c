@@ -14,19 +14,19 @@ int main()
  	k = 0;                  
  	m = 0;               
  	while (m < n-1)        
-    {
+    	{
   		if (*(p + i) != 0)  
 		  	k++;
    			if (k == 3)                      
-     		{
+     			{
 			 *(p + i) = 0;
-      		 k = 0;
-     		 m++;
-     		}//end if 
+      		 	 k = 0;
+     		 	 m++;
+     			}//end if 
    		i++;
    		if (i == n) 
 		     i = 0;                
-    }//end while 
+    	}//end while 
  	while(*p == 0) 
 	 	p++;
  	printf("The last one is NO.%d\n",*p);	
