@@ -26,8 +26,8 @@ void swap(int array[][3])
     for (i = 0; i < 3; i++) //swap the array 
         for (j = i + 1; j < 3; j++)
         {
-            t=array[i][j];
-            array[i][j] = array[j][i];
-            array[j][i] = t;
-        }
-}
+            t=array[i][j];  //store array[i][j] in t
+            array[i][j] = array[j][i];  //change array[j][i] with array[i][j]
+            array[j][i] = t;    //return t to array[j][i]
+        }   //end for
+}   //end swap()
