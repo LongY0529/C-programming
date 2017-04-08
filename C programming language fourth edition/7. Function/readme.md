@@ -1,6 +1,5 @@
 # Chapter 7 Function
 ## Table of Contents
-
   * [exercise 1](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/exercise%201.c) 
   * [exercise 2](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/exercise%202.c) 
   * [exercise 3](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/exercise%203.c)
