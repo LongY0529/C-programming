@@ -9,7 +9,7 @@
   * [exercise 7](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/exercise%207.c)
   * [exercise 8](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/exercise%208.c)
   * [exercise 9](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/exercise%209.c)
-  * [exercise 10]()
+  * [exercise 10](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/7-10.c)
   * [exercise 11](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/exercise%2011.c)
   * [exercise 12](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/exercise%2012.c)
   * [exercise 13](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/7.%20Function/exercise%2013.c)
