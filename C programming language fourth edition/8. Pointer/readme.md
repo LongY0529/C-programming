@@ -1,8 +1,9 @@
 # Pointer
 ## Table of Content
-  * [Exercise 1](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/Exercise%201.c)  
-  * [Exercise 2](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/Exercise%202.c) 
-  * [exercise 3](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%203.c)
+  * [exercise 1](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/Exercise%201.c)  
+  * [exercise 2](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/Exercise%202.c) 
+  
+  * [exercise 3](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%203.c)
   * [exercise 4](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%204.c)
   * [exercise 5](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%205.c)
   * [exercise 6](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%206.c)
