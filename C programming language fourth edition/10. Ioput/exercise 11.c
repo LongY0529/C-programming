@@ -20,7 +20,7 @@ int main()
 	            if ((str[i]>='a') && (str[i]<='z')) //if the char is lower letter
 	                str[i]= str[i] - 32;    //translate the letter into upper one 
             	printf("%s\n",str); //output the new string 
-        }
+        }	//end while
         fclose(fp); //close the file
         return 0;
-}
+}	//end main()
