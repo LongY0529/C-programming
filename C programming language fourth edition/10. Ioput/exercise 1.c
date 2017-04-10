@@ -10,19 +10,19 @@ int main ()
  	char str[100];
  	int i = 0;
  	if ((fp = fopen("upper","r")) == NULL)	//if file upper can not be opened 
-    { 
-   		 printf("can not open file\n");	//output the result 
-         exit(0);
-    }	//end if 
+    	{ 
+   		printf("can not open file\n");	//output the result 
+         	exit(0);
+    	}	//end if 
  	printf("input a string:\n");	//if file upper can be opened 
  	gets(str);	//input the string 
 	while (str[i] != '!')	//sort all the char until the string ends 
-    {
+    	{
   		if (str[i] >= 'a'&& str[i] <= 'z')	//find all the lower letters 
-     		str[i] = str[i] - 32;	//transfer lower letters into upper letters 
-    fputc(str[i],fp);
-    i++;
-    }	//end while 
+     			str[i] = str[i] - 32;	//transfer lower letters into upper letters 
+    	fput(str[i],fp);
+    	i++;
+    	}	//end while 
  	fclose(fp);	//close the file pointer points to 
  	fp=fopen("a1","r");	//pointer open a new file(r = read in .txt)
  	fgets(str,strlen(str)+1,fp);	//read data(length = strlen(str)+1) and store it in str
