@@ -42,5 +42,5 @@ struct student *insert(struct student *head,struct student *stud)
    	}
     	n = n + 1;	//the number of node + 1                        
     	return (head);
-}	//end student* insert()
+}	//end insert()
 
