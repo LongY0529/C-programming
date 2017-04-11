@@ -6,23 +6,23 @@
 #define LEN sizeof(struct  stu)
 struct  stu //define struct
 {   
-    char num[10];
-    char name[20];
-    char sex[2];
-    int age;
-    struct stu *next;
+     char num[10];
+     char name[20];
+     char sex[2];
+     int age;
+     struct stu *next;
 } 
 stu[10];
 
 int main()  //define function of linkedlist
 { 
-    struct stu *p,*pt,*head;    //define two pointer p(input) and pt(sort age) head as start of the linkedlist 
-    int i,length,iage;
-    int find; 
-    printf("input the number of students:");    //input the length of students
-    scanf("%d",&length);  
-    for (i = 0; i < length; i++)    //define the linkedist
-    {
+     struct stu *p,*pt,*head;    //define two pointer p(input) and pt(sort age) head as start of the linkedlist 
+     int i,length,iage;
+     int find; 
+     printf("input the number of students:");    //input the length of students
+     scanf("%d",&length);  
+     for (i = 0; i < length; i++)    //define the linkedist
+     {
 	p = (struct stu *) malloc(LEN); //allocate space of struct stu and define the address to p
         if (i == 0) //define the head of linkedlist 
 	    	head = pt = p;  //head of p 
