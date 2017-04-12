@@ -5,5 +5,5 @@
 char data[NEWSIZE]; //define struct data
 char *p=data;   //pointer p points to the head of the data                      
 void free(char *p)  //declare function free
-    if (p >= data && p< data + NEWSIZE) //  if p points to the address which is after the space of data 
+    if (p >= data && p < data + NEWSIZE) //  if p points to the address which is after the space of data 
         p=p;    //pointer p points to the end of the data
