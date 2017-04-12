@@ -20,7 +20,8 @@
   * [exercise 16](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2016.c)
   * [exercise 17](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2017.c)
   * [exercise 18](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2018.c)
-  * [19]()
+  * [exercise 19_1](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2019_1.c)
+  * [exercise 19_2](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2019_2.c)
   * [exercise 20](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2020.c)
   * [exercise 21](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2021.c)
   
