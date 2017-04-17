@@ -1,4 +1,4 @@
-# Chapter 4 select
+# Chapter 4 Select
 ## Table of Contents
 
   * [exercise 1](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/3.Sequence/exercise%201.c)
