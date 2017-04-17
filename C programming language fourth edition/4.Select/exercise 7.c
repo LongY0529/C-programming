@@ -11,7 +11,7 @@ int main()
 	{
 		y = -1;
 		printf("y=%d\n" ,y);	//output y = -1
-    }
+    	}
 	else  if(x == 0)	//if x = 0
 	{ 
 		y = 0;
