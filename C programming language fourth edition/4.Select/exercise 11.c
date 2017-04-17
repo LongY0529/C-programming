@@ -43,6 +43,6 @@ int main()
         c = d;
         d = temp;
     }
-  printf("new order is %d  %d  %d  %d  \n" ,a,b,c,d);
-  return 0;
+    printf("new order is %d  %d  %d  %d  \n" ,a,b,c,d);
+    return 0;
 }   //end main()
