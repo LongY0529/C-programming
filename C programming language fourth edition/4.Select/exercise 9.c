@@ -26,4 +26,4 @@ int main()
         n = n5+(i-1000000)*0.01;  //calculate the commission
     printf("the commission is %10.2f\n",n); //output the commission
     return 0;
- }  //end main()
+}  //end main()
