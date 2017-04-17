@@ -22,5 +22,5 @@ int main()
 		y = 1 ;
 		printf("y=%d\n" ,y);	//output y = 1
 	}
-return 0;
+	return 0;
 }	//end main()
