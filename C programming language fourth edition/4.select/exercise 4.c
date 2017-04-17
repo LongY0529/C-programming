@@ -13,7 +13,7 @@ int main()
 			printf("max=%d\n",b);	//output the largest integer b
 	else if (a<c)	//if a > b and a < c
 		printf("max=%d\n",c);	//output the largest integer c
-    else	//if a > b and a > c
+    	else	//if a > b and a > c
 		printf("max=%d\n",a);	//output the largest integer a 
-  return 0;
+  	return 0;
 }	//end main()
