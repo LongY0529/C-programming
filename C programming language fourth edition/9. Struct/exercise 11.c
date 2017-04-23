@@ -56,7 +56,7 @@ struct stu *merge(void)	//declare the linkedlist funtion
 }	//end stu*merge()
      
 struct stu *insert(struct stu *ah,struct stu *bh)	//declare funtion of insert
- {
+{
  	struct stu * pa1,* pa2,* pb1,* pb2;
   	pa2 = pa1 = ah;
   	pb2 = pb1 = bh;
@@ -80,7 +80,7 @@ struct stu *insert(struct stu *ah,struct stu *bh)	//declare funtion of insert
     		if ((pb1 != NULL) && (pb1 -> num > pa1 -> num) && (pa1 -> next == NULL))
       		pa1 -> next = pb1;
     	return(ah);
- }	//end stu*insert
+}	//end stu*insert
 
 void print(struct stu *head)  //declare funtion of output 
 {
