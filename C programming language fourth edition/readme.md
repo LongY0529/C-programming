@@ -3,6 +3,8 @@
 
 This is the exercises after each chapter of the book
 ## Content
+3. [Sequence](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/3.Sequence)
+4. [Select](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/4.Select)
 5. [Loops](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/5.%20Loops)
 6. [Array](https://github.com/LongY0529/C-programming/tree/master/C%20programming%20language%20fourth%20edition/6.%20Array)
 7. [Function](https://github.com/LongY0529/C-programming/commit/8dc8f14508c994c427acffcbb5da4551abfae66c)
