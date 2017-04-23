@@ -14,7 +14,7 @@
   * [exercise 10](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2010.c)
   * [exercise 11](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2011.c)
   * [exercise 12](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2012.c)
-  * [exercise 13]()
+  * [exercise 13](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2013.c)
   * [exercise 14](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2014.c)
   * [exercise 15](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2015.c)
   * [exercise 16](https://github.com/LongY0529/C-programming/blob/master/C%20programming%20language%20fourth%20edition/8.%20Pointer/exercise%2016.c)
