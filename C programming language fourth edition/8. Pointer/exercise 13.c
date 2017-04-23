@@ -44,15 +44,21 @@ float integral(float(*p)(float),float a,float b,int n)
   
 float sin(float x)
 {
-    return sin(x);
+    float n;
+    n = sin(x); //run function sin
+    return n);  //return result to main function
 }   //end sin()
 
 float cos(float x)
 {
-    return cos(x);
+    float n;
+    n = cos(x); //run function cos
+    return n;   //return result to main function
 }   //end cos()
 
 float index(float x)
 {
-    return index(x);
+    float n;
+    n = index(x);   //run function index
+    return index(x);    //return result to main function
 }   //end index()
